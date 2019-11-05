@@ -1,0 +1,61 @@
+body{
+
+    margin: 0;
+    height: 400vh;
+    
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: 270px  0.2fr 40px 40px ;   
+}
+.logo {
+    grid-column: 1 / span 1;
+    background-color: royalblue;
+    border-radius: 1px;
+  padding: 12px;
+    
+}
+.page{
+    grid-column: ;
+    background-color: #960;
+    text-align: center;
+    font-size: 32px;
+    grid-column: 2 / span 2;
+
+}
+.home{
+    grid-column: 1 / span 1;
+    background-color: cadetblue;
+    background-color: #060;
+    font-size: 23px;
+    color: black;
+}
+.boxa{
+    background-color: #989;
+    text-align: center;
+    grid-column: 2 / span 2;
+}
+article{
+    font-size: 18px;
+    font-style: normal;
+    color: #339;
+}
+}
+footer{
+    grid-column: 1 / span 2;
+    grid-row:  ;
+    background-color: bisque;
+}
+.boxe{
+    background-color: aquamarine;
+    grid-column: 1 / span 1;
+
+}
+.info{ background-color: cornflowerblue;
+    grid-column: 1 / span 1;
+
+}
+.log_in{
+    background-color: darkgrey;
+    grid-column: 2 / span 2 ;
+
+}
